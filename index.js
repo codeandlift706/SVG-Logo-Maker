@@ -1,9 +1,38 @@
-//insert imports
+//insert /packages needed for this application
 //imports jest and inquirer
+const fs = require('fs');
+const inquirer = require('inquirer');
+const shapes = require('./lib/shapes');
 
-// Runs the application using imports from lib/
-//import shapes.js
 
+// TODO: Create an array of questions for user input
+const questions = [
+    {
+        type: 'input',
+        message: 'Please enter up to 3 characters for your logo text:',
+        name: 'characters',
+    },
+    {
+        type: 'input',
+        message: 'Please enter a color keyword (example: black) OR a hexadecimal number (example: #22ff00) for the color of your text:',
+        name: 'textColor',
+    },
+    {
+        type: 'list',
+        message: 'Please select the shape for your logo:',
+        name: 'logoShape',
+        choices: [
+            'triangle',
+            'circle',
+            'square'
+        ]
+    },
+    {
+        type: 'input',
+        message: 'Please enter a color keyword (example: black) OR a hexadecimal number (example: #22ff00) for the color of your shape:',
+        name: 'shapeColor',
+    },
+];
 
 
 
@@ -20,7 +49,7 @@ When I open up the command line and run node index.js
 I answer a series of questions on what my logo design is like
 my series of questions = [
 WHEN I am prompted for text
-THEN I can enter up <= three characters
+THEN I can enter up >= three characters
 WHEN I am prompted for the text color
 THEN I can enter a color keyword (OR a hexadecimal number #22ff00)
 WHEN I am prompted for a shape
