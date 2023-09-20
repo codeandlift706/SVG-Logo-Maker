@@ -1,5 +1,11 @@
 // Jest tests for shapes
-const Shapes = require('../lib/shapes.js')
+const Shapes = require('../lib/generateShapes')
+
+
+
+
+
+
 
 /*
 
