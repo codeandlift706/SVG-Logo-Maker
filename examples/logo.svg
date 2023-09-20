@@ -5,25 +5,25 @@
      xmlns="http://www.w3.org/2000/svg">
 
 
-      <rect 
-            x="50" 
-            y="20" 
-            width="65%" 
-            height="100%" 
-            fill="${data.shapeColor}" 
+  
+      
+      <circle
+            cx="150" 
+            cy="100" 
+            r="80" 
+            fill="orange" 
         />
 
         <text 
         x="150" 
         y="120" 
-        font-size="45" 
+        font-size="55" 
         text-anchor="middle" 
-        fill="white">
-        WWW
+        fill="#cc3300">
+        ELI
     </text>    
 
       
-
 
 
 </svg>
