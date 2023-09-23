@@ -30,9 +30,9 @@ View a screenshot of the generateShapes.js file in VS Code::
 View a screenshot of the class constructors in VS Code:
 ![Screenshot of class constructors](assets/shapesClassesScreenshot.png)
 View a screenshot of the user tests in VS Code:
-![Screenshot of user tests](allUserTestsScreenshot.png)
+![Screenshot of user tests](assets/allUserTestsScreenshot.png)
 View a screenshot of the imports, inquirer questions, writetoFile and init functions in VS Code:
-![Screenshot of index](indexScreenshot.png)
+![Screenshot of index](assets/indexScreenshot.png)
 
 ## License
 This project is under the MIT license.
