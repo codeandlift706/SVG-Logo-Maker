@@ -1,9 +1,7 @@
 //insert packages needed for this application
-//imports jest and inquirer
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateShapes = require('./lib/generateShapes');
-
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -51,6 +49,5 @@ const init = () => {
         writeToFile('logo.svg', data)
     })
 }
-
 init();
 

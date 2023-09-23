@@ -18,36 +18,38 @@ View a video of the SVG-Logo-Maker executed in the terminal command line here: h
 View a video of the user tests here: https://drive.google.com/file/d/1nrUxqSJvNh7oY5fKZ4n_xhfOoZVYRaac/view?usp=sharing. 
 
 
-
 ## Installation
 VS Code for JavaScript. GibHub for version control. Jest needs to be installed to run a user test on the code, with the download instructions found here: https://www.npmjs.com/package/jest. The npm inquirer@8.2.4 also needs to be installed. The link can be found here: https://www.npmjs.com/package/inquirer/v/8.2.4.
 
-
 ## Usage
 This can be used when users want to create their own custom logo for projects.
-
+See a sample of the logo:
+![logo](assets/logoScreenshot.png)
+View a screenshot of the generateShapes.js file in VS Code::
+![generateShapes](assets/generateShapesScreenshot.png)
+View a screenshot of the class constructors in VS Code:
+![Screenshot of class constructors](assets/shapesClassesScreenshot.png)
+View a screenshot of the user tests in VS Code:
+![Screenshot of user tests](allUserTestsScreenshot.png)
+View a screenshot of the imports, inquirer questions, writetoFile and init functions in VS Code:
+![Screenshot of index](indexScreenshot.png)
 
 ## License
 This project is under the MIT license.
 
 
 ## Contribution
-The coding (variables, questions array, importing packages, conditional statements, console logs, writeToFile, init, and user test functions) -all the additions- are credited to the curriculum taught in the UCI coding boot camp and are credited to the instructor in the UCI coding boot camp.
+The coding (module imports, module exports, inquirer questions array, writeFile method, init function, class constructors with inheritance, render functions, user tests, and conditional statements) -all the additions- are credited to the curriculum taught in the UCI coding boot camp and are credited to the instructor in the UCI coding boot camp. A tutor from the UCI coding boot camp also helped provide guidance on restructuring the class constructors, the render functions, and the user tests.
 Information to download the inquirer package and on how to structure the prompt can be found here: https://www.npmjs.com/package/inquirer/v/8.2.4.
 Information to download the Jest package can be found here: https://www.npmjs.com/package/jest.
 How I designed the circle and square shapes are credited to this resource: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes.
-How I designed the triangle shape is from this resource: https://thenewcode.com/1037/SVG-Shape-Elements-Polygons
-https://en.wikipedia.org/wiki/SVG
-https://marketplace.visualstudio.com/items?itemName=jock.svg.
+How I designed the triangle shape is from this resource: https://thenewcode.com/1037/SVG-Shape-Elements-Polygons.
 How I edited the text of the logo can be found in this resource: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts.
 How I started forming the logo’s syntax in my code is through this resource: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started.
-
-
 To complete the README with screenshots, the source for the code is: https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository.
 To complete the README section, the source is: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide.
-To complete the markdown for the README, the source is: https://www.markdownguide.org/basic-syntax/
-https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
-.
+To complete the markdown for the README, the source is: https://www.markdownguide.org/basic-syntax/.
+https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba.
 
 
 ## Tests
@@ -55,8 +57,6 @@ To test this SVG-Logo generator, make sure that the appropriate installations (i
 ![Screenshot of logo questions](assets/logoQuestionsScreenshot.png)
 Users can also run tests by navigating to the terminal command line of this repo and typing “npm run test”. The tests will indicate that they have passed, promising that the logos will generate as stated. See the screenshot below:
 ![Screenshot of test](assets/userTestScreenshot.png)
-
-
 
 
 ## Questions
