@@ -15,7 +15,7 @@
 ## Description
 The purpose of creating a SVG-Logo-Maker through the command line in the terminal is so that the user does not have to pay for a third party to create one. The user can create a custom logo efficiently by opening the terminal, answering a series of questions, and once complete, the SVG logo is dynamically created from the user’s responses.
 View a video of the SVG-Logo-Maker executed in the terminal command line here: https://drive.google.com/file/d/11ucVJ_H6YB__Z2JaV7fEVycDW42qogs3/view?usp=sharing.
-View a video of the user tests here:
+View a video of the user tests here: https://drive.google.com/file/d/1nrUxqSJvNh7oY5fKZ4n_xhfOoZVYRaac/view?usp=sharing. 
 
 
 
