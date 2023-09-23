@@ -51,7 +51,10 @@ https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
 
 ## Tests
-To test this README generator, make sure that the appropriate installations (inquirer and Jest) have been completed. Users can then clone this repo, navigate to the terminal of this directory, and test typing "node index" in the terminal command line. Answer the series of questions by inputting the following: a random shape color, a random text color, up to 3 characters. Also, select a shape from the list. Upon answering all questions, a new logo.svg file will be created in your VS code of the repo, or, if you have an existing logo.svg, what the user inputted will overwrite what was on the logo.svg file previously.
+To test this SVG-Logo generator, make sure that the appropriate installations (inquirer and Jest) have been completed, and run “npm install” when in VS Code as well. Users can clone this repo, navigate to the terminal command line of this repo, and test typing "node index" in the terminal command line. Answer the series of questions by inputting the following: a random shape color, a random text color, up to 3 characters. Also, select a shape from the list. Upon answering all questions, a new logo.svg file will be created in your VS code of the repo, or, if you have an existing logo.svg, what the user inputted will overwrite what was on the logo.svg file previously. See the screenshot below:
+![Screenshot of logo questions](assets/logoQuestionsScreenshot.png)
+Users can also run tests by navigating to the terminal command line of this repo and typing “npm run test”. The tests will indicate that they have passed, promising that the logos will generate as stated. See the screenshot below:
+![Screenshot of test](assets/userTestScreenshot.png)
 
 
 
