@@ -6,8 +6,7 @@ describe('generateShapes', () => {
             const shape = new Square('hello', 'purple', 'pink');
             expect(shape.render()).toEqual(
 `<rect x="55" y="20" width="65%" height="100%" fill="pink"/>
-<text x="150" y="120" font-size="45" text-anchor="middle" fill="purple"> 
-hello</text>`);
+<text x="150" y="120" font-size="45" text-anchor="middle" fill="purple">hello</text>`);
         });
     });
 });

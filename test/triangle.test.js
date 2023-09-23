@@ -6,8 +6,7 @@ describe('generateShapes', () => {
       const shape = new Triangle('hello', 'purple', 'pink');
       expect(shape.render()).toEqual(
 `<polygon points="145 0, 280 170, 25 170" fill="pink"/>
-<text x="150" y="120" font-size="45" text-anchor="middle" fill="purple"> 
-hello</text>`);
+<text x="150" y="120" font-size="45" text-anchor="middle" fill="purple">hello</text>`);
     });
   });
 });
