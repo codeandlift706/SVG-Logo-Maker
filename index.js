@@ -10,7 +10,7 @@ const questions = [
     {
         type: 'input',
         message: 'Please enter up to 3 characters for your logo text:',
-        name: 'characters',
+        name: 'text',
     },
     {
         type: 'input',
@@ -53,6 +53,4 @@ const init = () => {
 }
 
 init();
-
-
 
